@@ -1,0 +1,29 @@
+# --- Bytecode e Cache do Python ---
+__pycache__/
+*.pyc
+
+# --- Arquivos de Build e Distribuição (Obrigatório ignorar) ---
+build/
+dist/
+*.spec
+*.exe
+
+# --- Arquivos de Execução e Logs ---
+*.log
+file_integrity_db.json
+RanForge_Setup.pkg
+
+# --- Chaves de Segurança (NUNCA suba chaves privadas) ---
+*.key
+chave_mestra.key
+
+# --- Arquivos do Sistema Operacional e IDE ---
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# --- Arquivos de Teste Gerados pelo dummy_gen ---
+# (Assumindo que você cria a pasta ransom_test na raiz ou C:)
+ransom_test/
+LEIA_ME_AGORA.txt
